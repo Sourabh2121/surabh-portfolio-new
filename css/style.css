@@ -462,6 +462,10 @@ canvas {
     .mt-lg-8 {
       margin-top: 1rem!important;
     }
+    .header-position{
+        top: 1rem!important;
+        left: 1rem!important;
+    }
   }
 /* contact-section */
 

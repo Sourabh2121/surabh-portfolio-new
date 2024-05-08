@@ -100,9 +100,11 @@ input#toggle:checked ~ #show-menu .btn .closeBtn {
     font-size: 15px;
     height: 40px;
     width: 40px;
+    z-index: 99;
   } 
   input#toggle:checked ~ #show-menu .btn:nth-child(2) {
     top: 55px;
+    left: 0px;
   }
   input#toggle:checked ~ #show-menu .btn:nth-child(3) {
     left: 0px;
