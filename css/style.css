@@ -447,6 +447,9 @@ canvas {
   .mt-lg-8 {
     margin-top: 7rem!important;
   }
+  .block-reveal__text{
+    color: var(--white-color)!important;
+  }
   @media (max-width: 1024px) {
     .position-md-absolute {
       position: inherit !important;
@@ -472,7 +475,14 @@ canvas {
 .section-header li{
     color: var(--white-color);
 }
-
+.work-height{
+    height: 250px;
+}
+.work-height img{
+    height: -webkit-fill-available;
+    object-fit: cover;
+    object-position: top;
+}
 
 
 .button-1 {

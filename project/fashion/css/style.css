@@ -1,0 +1,141 @@
+.icon{
+	font-size: 20px;
+}
+.bg{
+	background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url(https://preview.colorlib.com/theme/shoppers/images/hero_1.jpg) no-repeat;
+	background-size:cover;
+	background-position: center;
+	/*height: 100vh;*/
+
+}
+.icon1{
+	font-size: 35px;
+	color: #7971EA;
+}
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+.snip1375 {
+  font-family: 'Titillium Web', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  max-height: 420px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  background-color: #000000;
+}
+.snip1375 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.snip1375 img {
+  opacity: 1;
+  width: 100%;
+  -webkit-transform: scale(1.1) translateY(3%);
+  transform: scale(1.1) translateY(3%);
+}
+.snip1375:after,
+.snip1375:before {
+  -webkit-transition: all 0.5s 0s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  transition: all 0.5s 0s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  z-index: 1;
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+.snip1375:after {
+  top: 25%;
+  left: 50%;
+  -webkit-transform: translate(-60%, 100%);
+  transform: translate(-60%, 100%);
+  border-width: 150px 200px;
+  border-color: transparent #A6F3ED #7971EA #7971EA;
+}
+.snip1375:before {
+  bottom: 0%;
+  left: 50%;
+  -webkit-transform: translate(-55%, 100%);
+  transform: translate(-55%, 100%);
+  border-width: 0 180px 140px 180px;
+  border-color: transparent transparent #7971EA transparent;
+}
+.snip1375 figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.snip1375 h2 {
+  margin: 0;
+  opacity: 0;
+  padding: 10px 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  -webkit-transform: translateY(20%);
+  transform: translateY(20%);
+}
+.snip1375 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 2;
+}
+.snip1375:hover img,
+.snip1375.hover img {
+  -webkit-transform: scale(1.1) translateY(-3%);
+  transform: scale(1.1) translateY(-3%);
+  opacity: 0.4;
+}
+.snip1375:hover:before,
+.snip1375.hover:before,
+.snip1375:hover:after,
+.snip1375.hover:after {
+  -webkit-transition: all 0.4s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.4s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.snip1375:hover:before,
+.snip1375.hover:before {
+  -webkit-transform: translate(-55%, 0);
+  transform: translate(-55%, 0);
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.snip1375:hover:after,
+.snip1375.hover:after {
+  -webkit-transform: translate(-60%, 0);
+  transform: translate(-60%, 0);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1375:hover figcaption h2,
+.snip1375.hover figcaption h2 {
+  opacity: 1;
+  -webkit-transform: translate(0px);
+  transform: translate(0px);
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+span{
+	color: #7971EA;
+}
+.icon2{
+	color: #7971EA;
+}
+.video{
+	background: url(https://preview.colorlib.com/theme/shoppers/images/blog_1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+@media only screen and (min-width: 1024px){
+  
+}

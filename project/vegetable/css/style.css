@@ -1,0 +1,288 @@
+.fa-edit{
+	font-size: 20px;
+	color: white;
+	background-color:#FF4301;
+	border-radius: 100%;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	padding: 8px 0px 0px 0px;
+}
+.carousel-item{
+    position:relative;
+}
+.head{
+	background-color: #141414;
+	height: 90px;
+}
+.carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:linear-gradient( to right ,rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+}
+.carousel-caption{
+	position: absolute;
+	top: 20%;
+}
+.bg{
+	background: url(http://live.envalab.com/html/the-farm-house/img/transparent-bg.png) no-repeat;
+	background-size: 100% 100%;
+
+}
+.body{
+	font-family:'Kalam', cursive;
+}
+span{
+	color: #FF4301;
+	text-decoration:underline;
+}
+.btn1{
+	background-color: #FF4301;
+	color: white;
+	/*box-shadow: 2px 5px red;*/
+}
+.btn1:hover{
+	background-color:#141414;
+	color: white ;
+	/*border: 1px solid #FF4301; */
+}
+a.left
+{
+    position: relative;
+}
+
+a.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color:red !important;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+  
+}
+a.left:hover:before {
+  visibility: visible;
+  width: 100%;
+  }
+  a.left:hover{
+    color: red !important;
+  }
+
+  .circle{
+  	background-color:#333333;
+  	color: white;
+  	border-radius: 100%;
+  	padding: 10px;
+  	text-align: center;
+  	width: 50px;
+  	height: 50px;
+  }
+  .btn2{
+	background-color: #141414;
+	color: white;
+	/*box-shadow: 8px 8px 10px #FFD9CC;*/
+}
+.btn2:hover{
+	background-color:#FF4301;
+	color: white ;
+	/*border: 1px solid #FF4301; */
+}
+  .text1{
+  	font-size: 19px;
+  	color:#212529;
+  }
+  .product{
+  	background: url(http://live.envalab.com/html/the-farm-house/img/product-gallery-bg.png);
+  	background-attachment: fixed;
+  	background-size: cover;
+  	background-color:#333333;
+  	height: 100%;
+  }
+  .bg3{
+  	height:250px;
+  	width: 230px;
+  	/*border: 1px solid red;*/
+    box-shadow: 5px 5px #454545;
+  }
+  .farm{
+  	background: url(http://live.envalab.com/html/the-farm-house/img/latest-product-bg.png) no-repeat;
+  	background-size:100%;
+    background-attachment: fixed;
+ background-color: #F7F7F7;
+  }
+  
+  .fa-chevron-right{
+  	position: absolute;
+    right:5%;
+    background-color: #FF4301;
+    text-align: center;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    color: white;
+    padding: 10px 0px 0px 0px;
+    font-size: 10px;
+  }
+  @import url(https://fonts.googleapis.com/css?family=Roboto:100,700;);
+.snip1576 {
+  background-color: #fff;
+  color: #444;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  margin: 8px;
+  /*max-width: 315px;*/
+  /*min-width: 230px;*/
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.snip1576 *{
+  box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1576:after {
+  background-color: #FF4301;
+  height: 150%;
+  bottom: -145%;
+  content: '';
+  left: 0;
+  right: 0;
+  position: absolute;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.snip1576 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.snip1576 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.1em;
+  opacity: 0;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.snip1576 h3 {
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.snip1576 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1576:hover > img,
+.snip1576.hover > img {
+  opacity: 0.1;
+}
+
+.snip1576:hover:after,
+.snip1576.hover:after {
+  bottom: 95%;
+}
+
+.snip1576:hover figcaption,
+.snip1576.hover figcaption {
+  opacity: 1;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+.plane{
+	background-color: #333333;
+}
+.house{
+	background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(http://live.envalab.com/html/the-farm-house/img/testimonial-bg.jpg);
+	background-size: cover;
+	/*background-attachment: fixed;*/
+	/*height: 100%;*/
+}
+.info{
+	position:relative;
+	top: 25%;
+	
+}
+.sentence{
+	font-size: 35px;
+	color: white;
+	font-family:'Montserrat';
+
+}
+.person{
+	font-size: 20px;
+	color: white;
+	font-family: ;
+	text-align:right;
+}
+.rev{
+	background-color: #FF4301;
+	color: white;
+     font-size: 30px;
+    font-family:'Montserrat', sans-serif ;
+}
+.rev:hover{
+	background-color: white;
+	color:#FF4301; 
+}
+.icon{
+	font-size: 25px;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-color: white;
+	color: black;
+	text-align: center;
+	padding: 20px 0px 0px 0px;
+}
+.nav-link.active{
+  border:2px solid #E47277 !important;
+  color: #E47277 !important;
+}
+.nav-link.active:hover{
+  border:2px solid #E47277 !important;
+  color: #E47277 !important;
+}
+
+
+@media only screen and (min-width: 1024px){
+.text{
+	font-size: 50px;
+}
+.white{
+	margin: -10px 0px 0px 0px;
+}
+}

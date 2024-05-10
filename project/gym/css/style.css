@@ -1,0 +1,153 @@
+*{
+	/*border: 2px solid red;*/
+	}.menu li a{
+	font-size: 20px;
+}
+.header{
+	    background: #950101;
+	background: -webkit-linear-gradient(top, #950101 0%, #630102 50%, #3d0302 100%);
+    background: linear-gradient(to bottom, #950101 0%, #630102 50%, #3d0302 100%);
+}
+.gym{
+	font-family: Train One;
+}
+.trainer{
+	background: /*linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),*/ url(https://preview.colorlib.com/theme/zacson/assets/img/hero/h1_hero.png) no-repeat;
+	background-size:100% 100%;
+	background-position: center;
+	height: 100vh;
+	/*width: 100%;*/
+	/*background-attachment: fixed;*/
+}
+.personal{
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://preview.colorlib.com/theme/zacson/assets/img/gallery/cat1.png);
+	background-size:100% 100%;
+	height:80vh;
+
+}
+.group{
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://preview.colorlib.com/theme/zacson/assets/img/gallery/cat2.png);
+	background-size: cover;
+   background-position: center;
+}
+.traning{
+	font-size: 40px;
+	font-family: inherit;
+}
+.gaining{
+	background: url(https://preview.colorlib.com/theme/zacson/assets/img/gallery/gallery1.png);
+	background-size:100% 100%;
+	height:500px;
+}
+.gaining1{
+	background: url(https://preview.colorlib.com/theme/zacson/assets/img/gallery/gallery2.png);
+	background-size:100% 100%;
+	height:500px;
+}
+.gaining2{
+	background: url(https://preview.colorlib.com/theme/zacson/assets/img/gallery/gallery3.png);
+	background-size:100% 100%;
+	height: 500px;
+}
+.gaining3{
+	background: url(https://preview.colorlib.com/theme/zacson/assets/img/gallery/gallery4.png);
+	background-size:100% 100%;
+	height: 500px;
+}
+.gaining4{
+	background: url(https://preview.colorlib.com/theme/zacson/assets/img/gallery/gallery5.png);
+	background-size:100% 100%;
+	height: 500px;
+}
+.gaining5{
+	background: url(https://preview.colorlib.com/theme/zacson/assets/img/gallery/gallery6.png);
+	background-size:100% 100%;
+	height: 500px;
+}
+.me{
+	background: url(https://preview.colorlib.com/theme/zacson/assets/img/gallery/about.png);
+	background-size:100% 100%;
+	height: 500px;
+}
+.video{
+	background: url(https://preview.colorlib.com/theme/zacson/assets/img/gallery/video-bg.png);
+	background-size:100% 100%;
+	height:100vh;
+}
+span{
+	color: #FF0000;
+	font-size: 20px;
+}
+.cn{
+	width: 100%;
+	height: 100vh;
+}
+.dum{
+	background: #FF0000;
+	border-radius: 100%;
+	font-size: 50px;
+}
+.path{
+	background: linear-gradient(rgba(0,0,0,0.7),rgba(206, 64, 64, 0.5));
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+.path:hover{
+	opacity: 1;
+}
+.path h3{
+	position:relative;
+	top: 75%;
+	left: 5%;
+	display: inline;
+
+
+}
+
+.fa-arrow-circle-up{
+	font-size: 45px;
+	color: #FF0000;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+
+}
+
+html{
+	scroll-behavior: smooth;
+}
+.fa-play-circle{
+	font-size: 80px;
+	color: white;
+	border: 2px solid ;
+	border-radius: 100%;
+	padding: 20px;
+	animation: blink 2s linear infinite;
+	
+	
+	
+}/*
+
+
+}*/
+@keyframes blink{
+  0%{border: none;}
+  100%{border:1px solid red;}
+}
+.btan:hover{
+   background: #FF0000; 
+   color: white;
+   border:1px solid  #FF0000; 
+}
+.paragraph{
+	font-size: 24px;
+}
+@media only screen and (min-width: 1024px){
+	.main{
+		font-size: 130px;
+	}
+.jackson{
+	font-size: 70px;
+	}
+}

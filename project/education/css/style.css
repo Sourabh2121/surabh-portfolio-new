@@ -1,0 +1,109 @@
+.bg{
+	background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://preview.colorlib.com/theme/nurture/images/hero_bg.jpg);
+	background-size: 100% 100%;
+	height: 100vh;
+	/*background-attachment: fixed;*/
+}
+.color{
+	background-color: #0FB78D;
+}
+.icon1{
+	font-size: 45px;
+	
+}
+.shade{
+	font-family: Muli;
+}
+.body{
+	font-family: sans-serif;
+	font-size: 17px;
+	color: #333;
+}
+.fa-play-circle{
+	font-size: 80px;
+	color:#0FB78D; 
+	animation: blink 2s linear infinite;
+}
+@keyframes blink{
+  0%{border: none;}
+  100%{border:1px solid #0FB78D;}
+}
+.bg1{
+	background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://preview.colorlib.com/theme/nurture/images/hero_bg_2.jpg);
+	background-size: 100% 100%;
+	height: 90vh;
+	/*background-attachment: fixed;*/
+}
+.fa-play-circle{
+	border: 2px solid #0FB78D;
+	 border-radius: 100%;
+	 color: #0FB78D;
+}
+.comn{
+	font-size: 35px;
+	background-color: #EEF7E5;
+	width: 60px;
+	height: 60px;
+	padding: 13px 0px 0px 0px;
+	border-radius: 100%;
+	text-align: center;
+}
+.fa-music{
+	color:#0FB78D;
+	background-color: #EEF7E5;
+	
+}
+.fa-calculator{
+    color:#EC661F;
+	background-color: #FDEFE8;
+}
+.fa-book-open{
+    color:#4FB0DC;
+	background-color: #EDF7FB;
+}
+.fa-book{
+    color:#6B53AB;
+	background-color:#F0EDF6;
+}
+.fa-triangle{
+    color:#0FB78D;
+	background-color:#E7F8F3;
+}
+.fa-users-class{
+     color:#FD9800;
+	 background-color:#FFF4E5;
+}
+.text{
+	color: #0FB78D;
+}
+.btn2{
+	border: 1px solid #0FB78D;
+}
+.btn2:hover{
+   background-color: #0FB78D;
+  color:#fff;
+   border: 1px solid red; 
+}
+.bg2{
+	background: url(https://preview.colorlib.com/theme/nurture/images/about_1.jpg);
+	background-size: 100% 100%;
+	height: 80vh;
+}
+.fsize{
+	font-size: 35px;
+}
+@media only screen and (min-width: 1024px){
+	.navbar{
+         background-color: #EAEAE9;
+	}
+	.navbar ul li a{
+         color:#000000 !important;
+	}
+	.navbar-brand{
+		font-size: 30px;
+		color:#000000 !important;
+	}
+	.navbar ul li a:hover{
+         color:#0FB78D !important;
+	}
+}
