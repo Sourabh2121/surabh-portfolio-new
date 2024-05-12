@@ -89,6 +89,9 @@ input#toggle:checked ~ #show-menu .btn .closeBtn {
 }
 
 @media (max-width: 767px){
+  /* #show-menu .btn:nth-child(1){
+    left: -12px;
+  } */
   .material-icons.md-36 {
     font-size: 20px;
   }

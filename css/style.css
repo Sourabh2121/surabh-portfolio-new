@@ -318,6 +318,7 @@ a{
 .main-timeline .timeline:nth-child(2n) .timeline-content:before{ left: -7.3px; }
 .main-timeline .timeline:nth-child(2n) .timeline-content:after{ left: -14%; }
 @media only screen and (max-width: 767px){
+   
     .main-timeline{ padding-left: 11px; }
     .main-timeline:before{ left: 11px; }
     .main-timeline .timeline{ width: 100%; }
@@ -442,6 +443,11 @@ a{
   }
   .block-reveal__text{
     color: var(--white-color)!important;
+  }
+  @media (min-width: 1024px){
+    .position-md-fixed{
+        position: fixed;
+    }
   }
   @media (max-width: 1024px) {
     .position-md-absolute {
