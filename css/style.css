@@ -521,9 +521,4 @@ a{
     left: 7rem;
     width: 83%;
   }
-  @media (max-width: 768px) {
-    .aos-effect {
-        visibility: hidden; /* Hide the elements with AOS effect */
-        opacity: 1; /* Ensure the elements remain visible */
-    }
-}
+ 
