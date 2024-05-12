@@ -14,6 +14,10 @@
 }
 
 /* common-css */
+body{
+    background-color: var(--sp-body-color)!important;
+    color: var(--white-color)!important;
+}
 input{
     border: none;
     outline: none;
@@ -35,35 +39,25 @@ a{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-body{
-    background-color: var(--sp-body-color)!important;
-    color: var(--white-color)!important;
-}
-.secondary-text{
-    color: var(--sp-secondary-text-color);
-}
 .border-color{
     border-color: #6a6a6a!important;
 }
-.btn-theme{
-    background-color: var(--sp-theme-color)!important;
-    color: var(--sp-body-color)!important;
-    padding: 8px 12px;
-}
-
 .text-theme{
     color: var(--sp-theme-text-color);
 }
 .position-md-absolute{
     position: absolute;
 }
+.logo{
+    background-color: #c8f31d;
+    border-radius: 50%;
+}
 /* home-section */
-.background-canvas{
-    background: var(--sp-body-color);
-}
-canvas {
-    width: 100%;
-}
+#hero {
+    height: 100vh;
+    align-items: center;
+    display: flex;
+  }
 /* about-section */
 .background-video {
     position: relative;
@@ -345,8 +339,6 @@ canvas {
 }
 
 
-/* techonlogy */
-
 /* technolgy-section */
 
 .section_technology .side-box{
@@ -512,5 +504,20 @@ canvas {
     will-change: transform;
     transform: translateY(-4px);
     transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+  }
+  .profile-border {
+    border: 10px solid;
+    border-color: #c8f31d57;
+    border-radius: 5px;
+  }
+
+  .section-contact {
+    background-color: #151530;
+  }
+  .header-position {
+    position: absolute;
+    top: 2rem;
+    left: 7rem;
+    width: 83%;
   }
   
