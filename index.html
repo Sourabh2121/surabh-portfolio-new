@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/header.css" />
+    <link rel="icon" type="image/png" href="images/logo.png" />
     <link
       href="https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap"
       rel="stylesheet"
@@ -19,7 +20,11 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" /> -->
+    <link
+      href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+      media="(min-width: 550px)"
+      rel="stylesheet"
+    />
     <!-- Include Tilt.js library -->
     <script src="https://cdn.jsdelivr.net/npm/tilt.js@2.3.2/tilt.jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -172,19 +177,18 @@
           <div class="row justify-content-center py-3 w-100">
             <div class="col-lg-6 position-relative z-3 pe-lg-5">
               <div data-aos="fade-up" data-aos-duration="1500">
-                <h2 class="text-theme head-style display-6">About Us</h2>
+                <h2 class="text-theme head-style display-6">About Me</h2>
                 <h3 class="text-white">
                   A better story always comes <br class="d-none d-md-block" />
                   before a beautiful design.
                 </h3>
                 <h6 class="my-3 text-theme">Hey there, I'm Sourabh Patil,</h6>
                 <p class="opcity-75">
-                  Welcome! I have two years of hands-on experience in UI/UX
-                  development, specializing in crafting user-centric designs for
-                  both web and mobile applications. I thrive on challenges and
-                  am actively seeking opportunities to further enhance my skills
-                  while contributing to the creation of engaging user
-                  experiences.
+                  I have two years of hands-on experience in UI/UX development,
+                  specializing in crafting user-centric designs for both web and
+                  mobile applications. I thrive on challenges and am actively
+                  seeking opportunities to further enhance my skills while
+                  contributing to the creation of engaging user experiences.
                 </p>
                 <p class="opcity-75">
                   Currently, I am expanding my expertise by delving into
@@ -1035,7 +1039,14 @@
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      AOS.init();
+      function isDesktop() {
+        return window.innerWidth > 768;
+      }
+
+      // Initialize AOS if the screen is a desktop
+      if (isDesktop()) {
+        AOS.init();
+      }
       VANTA.WAVES({
         el: "#hero",
         mouseControls: true,
