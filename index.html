@@ -25,6 +25,7 @@
       media="(min-width: 550px)"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <!-- Include Tilt.js library -->
     <script src="https://cdn.jsdelivr.net/npm/tilt.js@2.3.2/tilt.jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -147,11 +148,9 @@
           <div class="row w-100 justify-content-center">
             <div class="col-lg-9 my-auto">
               <div class="text-center">
-                <h1 class="display-3 text-white fw-semibold">
+                <h1 class="display-4 text-white fw-semibold">
                   Hello, I'm <span class="text-theme">Sourabh Patil</span>
-                  <br class="d-none d-lg-block" />
-                  UI/UX and Frontend <br />
-                  Developer
+                  <div class="text"></div>
                 </h1>
               </div>
             </div>
@@ -1038,6 +1037,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var typing = new Typed(".text", {
+          strings: [
+            "",
+            "UI / UX Developer",
+            "Web Designer",
+            "Web Developer",
+            "Frontend Developer",
+          ],
+          typeSpeed: 100,
+          backSpeed: 40,
+          loop: true,
+        });
+      });
+    </script>
     <script>
       function isDesktop() {
         return window.innerWidth > 768;
