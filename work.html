@@ -17,11 +17,18 @@
       <div class="container-fluid">
         <div class="row justify-content-center py-3 py-lg-5">
           <div class="col-lg-11">
-            <h4 class="text-center text-theme pb-3">
-              In the past two years, I've crafted over more than ten projects
-              leveraging HTML, CSS, Bootstrap, and JavaScript, Jquery <br />
-              showcasing my expertise in front-end development.
-            </h4>
+            <!-- Backdrop -->
+            <div id="popupBackdrop" class="backdrop"></div>
+            <!-- Popup -->
+            <div id="welcomePopup" class="popup">
+              <button class="close-btn" id="closePopupBtn">&times;</button>
+
+              <h4 class="text-center text-dark pb-3">
+                In the past two years, I've crafted over more than ten projects
+                leveraging HTML, CSS, Bootstrap, and JavaScript, Jquery <br />
+                showcasing my expertise in front-end development.
+              </h4>
+            </div>
             <div class="row">
               <div class="col-md-6 col-xl-4 trans3 mb-3">
                 <div class="card bg-transparent p-3 rounded-2 h-100 item-card">
@@ -195,5 +202,25 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script>
+      window.addEventListener("load", function () {
+        const popup = document.getElementById("welcomePopup");
+        const backdrop = document.getElementById("popupBackdrop");
+        const closeBtn = document.getElementById("closePopupBtn");
+
+        // Show popup and backdrop
+        popup.style.display = "block";
+        backdrop.style.display = "block";
+
+        // Manual close on button click
+        closeBtn.addEventListener("click", closePopup);
+
+        function closePopup() {
+          popup.style.display = "none";
+          backdrop.style.display = "none";
+          clearTimeout(autoClose);
+        }
+      });
+    </script>
   </body>
 </html>
